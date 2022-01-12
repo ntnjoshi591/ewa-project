@@ -4,11 +4,11 @@ files:
   - source: /
     destination: /var/www/html
     overwrite: true
-hooks:
-  BeforeInstall:
-    - location: scripts/before-install.sh
-      timeout: 120
-      runas: root
+#hooks:
+#  BeforeInstall:
+#    - location: scripts/before-install.sh
+#      timeout: 120
+#      runas: root
 #     - location: scripts/start_server
 #     timeout: 300
 #      runas: root
